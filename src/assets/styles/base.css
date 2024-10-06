@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'JUNEVILLE';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/JUNEVILLE.ttf);
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Comfortaa.ttf);
+}
+
+@font-face {
+  font-family: 'RubikMonoOne';
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/RubikMonoOne.ttf);
+}
+
+:root {
+  --theme-back: #151515;
+  --theme-back-pos: #252525;
+  --theme-back-pos2: #555555;
+  --theme-back-neg: #0d0d0d;
+
+  --theme-active: #ffe737;
+  --theme-break: #0a89ff;
+  --theme-long-break: #25e2cd;
+
+  --theme-inactive: #3b3b3b;
+}
+
+body {
+  font-family: 'Comfortaa';
+  color: white;
+  background: var(--theme-back);
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+/* width */
+*::-webkit-scrollbar {
+  width: 10px;
+  /*  height: calc(100% - 128px);*/
+  border-radius: 5px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: var(--theme-back-pos);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-corner {
+  background: var(--theme-back);
+  border-radius: 5px;
+}

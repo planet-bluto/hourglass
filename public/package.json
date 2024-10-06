@@ -1,0 +1,15 @@
+{
+  "main": "index.html",
+  "name": "Hourglass",
+  "chromium-args": "--allow-file-access-from-files --allow-file-access --user-data-dir",
+  "window": {
+    "width": 960,
+    "height": 570,
+    "position": "center"
+  },
+  "dependencies": {
+    "eventemitter3": "^5.0.1",
+    "socket.io": "^4.7.5",
+    "vue": "^3.4.29"
+  }
+}
